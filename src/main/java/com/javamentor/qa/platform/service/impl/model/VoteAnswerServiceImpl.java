@@ -43,4 +43,6 @@ public class VoteAnswerServiceImpl extends ReadWriteServiceImpl<VoteAnswer, Long
     public Long getAllTheVotesForThisAnswer(Long answerId) {
         return voteAnswerDao.getAllTheVotesForThisAnswer(answerId);
     }
+
+
 }
